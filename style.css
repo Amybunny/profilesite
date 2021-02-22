@@ -1,0 +1,158 @@
+body{
+  margin: 0 auto;
+}
+h1{
+  font-weight: normal;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+ヘッダー
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*サイトタイトル*/
+.siteTitle{
+  font-family: 'Pinyon Script', cursive;
+  text-align: center;
+  font-size: 3em;
+  margin: 32px auto;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+メイン
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/*コンテンツ下margin*/
+.mainContents{
+  margin-bottom: 80px;
+}
+
+/*記事タイトル*/
+.articleTitle{
+  font-family: 'Pinyon Script', cursive;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 16px auto;
+}
+
+/*トップ画像*/
+.slick-slide img{
+  width: 100%;
+}
+
+.topImg-contents{
+  filter: brightness(70%);
+}
+
+/*プロフィール*/
+.aboutMe p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 16px;
+}
+
+.moo{
+  margin: 48px auto 16px auto;
+  display: block;
+  width: 20%;
+}
+
+@media screen and (max-width:475px){
+  .aboutMe{
+    font-size: 0.9em;
+  }
+  .moo{
+    width:50%;
+  }
+}
+
+/*お問い合わせ*/
+.contact{
+  height: 480px;
+}
+
+.form-wrap{
+  width: 40%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:475px){
+  .form-wrap{
+    width: 90%;
+    font-size: 0.9em;
+  }
+}
+
+.form-group label{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 8px;
+  color: #5c5c5c;
+}
+
+.msg-area{
+  color:#FF725E;
+  font-size: 0.7em;
+}
+
+.input-common{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border:1px solid #bcbebe;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  border-radius: 5px;
+}
+
+textarea{
+  resize: none;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+.text,.email{
+  height: 32px;
+}
+
+.comment{
+  height: 160px;
+  margin-bottom: 32px;
+  padding: 8px;
+}
+
+.btn-submit{
+  display: block;
+  width: 100%;
+  height: 40px;
+  box-shadow:0 3px 0 #666;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #cfcfcf;
+  color:#555;
+  -webkit-appearance: none;
+  border: none;
+
+}
+
+.btn-submit:hover{
+  background: #aaa;
+  transition:0.3s ease-in-out;
+  border: none;
+}
+
+.btn-submit:active{
+  box-shadow: none;
+  transform: translate3d(0,4px,0);
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+フッター
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.copyright{
+  text-align: center;
+  font-size: 0.5em;
+  margin-bottom: 8px;
+}
