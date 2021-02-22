@@ -1,7 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.seopack\.jp$
-RewriteRule ^(.*)$ http://seopack.jp/$1 [R=301,L]
